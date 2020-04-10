@@ -1,6 +1,6 @@
 # PortsScanner
 
-[![Build Status](https://github.com/cardoso010/ports_scanner/workflows/ci/badge.svg)]
+[![](https://github.com/cardoso010/ports_scanner/workflows/ci/badge.svg)]
 
 Application to figure out which ports are open in a specific host.
 
