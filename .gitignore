@@ -25,3 +25,5 @@ ports_scanner-*.tar
 .vscode/
 .elixir_ls/
 
+ports_scanner
+
