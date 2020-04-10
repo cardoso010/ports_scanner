@@ -1,6 +1,9 @@
 # PortsScanner
 
-**TODO: Add description**
+[![](https://github.com/cardoso010/ports_scanner/workflows/ci/badge.svg)](https://github.com/cardoso010/ports_scanner/actions)
+
+Application to figure out which ports are open in a specific host.
+
 
 ## Installation
 
