@@ -4,11 +4,13 @@ defmodule PortsScanner.Application do
   @moduledoc false
 
   use Application
+  # alias PortsScanner.Ports
 
   def start(_type, _args) do
     children = [
       # Starts a worker by calling: PortsScanner.Worker.start_link(arg)
       # {PortsScanner.Worker, arg}
+      # Ports
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

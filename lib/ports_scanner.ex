@@ -9,10 +9,10 @@ defmodule PortsScanner do
   Function that test a range of ports in a specific host.
 
   ## Examples
-    iex(1)> PortsScanner.start("localhost", 70, 85)
+    iex(1)> PortsScanner.start("www.google.com", 70, 85)
     [80]
 
-    iex(1)> PortsScanner.start("localhost", 10, 20)
+    iex(1)> PortsScanner.start("www.google.com", 10, 20)
     []
   """
   def start(host \\ "localhost", start_port \\ 1, end_port \\ 100) do
