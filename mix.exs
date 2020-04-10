@@ -53,8 +53,7 @@ defmodule PortsScanner.MixProject do
   defp package do
     [
       name: "ports_scanner",
-      files: ~w(lib priv .formatter.exs mix.exs README* readme* LICENSE*
-                license* CHANGELOG* changelog* src),
+      files: ~w(lib .formatter.exs mix.exs README* LICENSE*),
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/cardoso010/ports_scanner"}
     ]
